@@ -1,0 +1,19 @@
+/home/zyx/anaconda3/bin/python3.7 /home/zyx/W4111_HW2/aeneid/tests/test_delete.py
+
+test_delete_player: test 1, primary_key= ok1,
+Printing a response.
+HTTP status code:  404
+Response headers:
+ {
+  "Content-Type": "text/plain; charset=utf-8",
+  "Content-Length": "9",
+  "Server": "Werkzeug/0.14.1 Python/3.7.2",
+  "Date": "Sun, 03 Mar 2019 22:33:37 GMT"
+}
+Text body:
+ NOT FOUND
+
+test_create_manager: test 2 retrieving created player.
+No link header returned.
+
+Process finished with exit code 0

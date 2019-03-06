@@ -1,0 +1,85 @@
+Testing started at 7:41 PM ...
+/home/zyx/anaconda3/bin/python3.7 /home/zyx/Documents/pycharm-2018.2.5/helpers/pycharm/_jb_nosetest_runner.py --path /home/zyx/W4111_HW2/aeneid/tests/test_get_from_resource.py
+Launching Nosetest with arguments /home/zyx/Documents/pycharm-2018.2.5/helpers/pycharm/_jb_nosetest_runner.py /home/zyx/W4111_HW2/aeneid/tests/test_get_from_resource.py in /home/zyx/W4111_HW2/aeneid/tests
+Test 1 http://127.0.0.1:5000/api/lahman2017/people?nameLast=Smith&fields=playerID%2C+nameLast%2CnameFirst&order_by=nameFirst&limit=10&offset=10
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.011s
+
+Printing a response.
+OK
+HTTP status code:  200
+Response headers:
+ {
+  "Content-Type": "application/json",
+  "Content-Length": "1041",
+  "Server": "Werkzeug/0.14.1 Python/3.7.2",
+  "Date": "Tue, 05 Mar 2019 00:41:56 GMT"
+}
+JSON body:
+ {
+  "data": [
+    {
+      "playerID": "smithbi03",
+      "nameLast": "Smith",
+      "nameFirst": "Billy"
+    },
+    {
+      "playerID": "smithbi05",
+      "nameLast": "Smith",
+      "nameFirst": "Billy"
+    },
+    {
+      "playerID": "smithbi06",
+      "nameLast": "Smith",
+      "nameFirst": "Billy"
+    },
+    {
+      "playerID": "smithbl01",
+      "nameLast": "Smith",
+      "nameFirst": "Blake"
+    },
+    {
+      "playerID": "smithbo01",
+      "nameLast": "Smith",
+      "nameFirst": "Bob"
+    },
+    {
+      "playerID": "smithbo02",
+      "nameLast": "Smith",
+      "nameFirst": "Bob"
+    },
+    {
+      "playerID": "smithbo03",
+      "nameLast": "Smith",
+      "nameFirst": "Bob"
+    },
+    {
+      "playerID": "smithbo05",
+      "nameLast": "Smith",
+      "nameFirst": "Bob"
+    },
+    {
+      "playerID": "smithbo06",
+      "nameLast": "Smith",
+      "nameFirst": "Bob"
+    },
+    {
+      "playerID": "smithbo04",
+      "nameLast": "Smith",
+      "nameFirst": "Bobby"
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "http://127.0.0.1:5000/api/lahman2017/people?nameLast=Smith&fields=playerID%2C+nameLast%2CnameFirst&order_by=nameFirst&limit=10&offset=10"
+    },
+    {
+      "rel": "next",
+      "href": "http://127.0.0.1:5000/api/lahman2017/people?nameLast=Smith&fields=playerID%2C+nameLast%2CnameFirst&order_by=nameFirst&limit=10&offset=20"
+    }
+  ]
+}
+
+Process finished with exit code 0

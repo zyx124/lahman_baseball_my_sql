@@ -1,0 +1,76 @@
+/home/zyx/anaconda3/bin/python3.7 /home/zyx/W4111_HW2/aeneid/tests/test_get_by_path.py
+
+test_get_manager: test 1, player = willite01,
+Printing a response.
+HTTP status code:  200
+Response headers:
+ {
+  "Content-Type": "application/json",
+  "Content-Length": "523",
+  "Server": "Werkzeug/0.14.1 Python/3.7.2",
+  "Date": "Tue, 05 Mar 2019 00:36:50 GMT"
+}
+JSON body:
+ {
+  "data": [
+    {
+      "playerID": "willite01"
+    },
+    {
+      "playerID": "willite01"
+    },
+    {
+      "playerID": "willite01"
+    },
+    {
+      "playerID": "willite01"
+    },
+    {
+      "playerID": "willite01"
+    },
+    {
+      "playerID": "willite01"
+    },
+    {
+      "playerID": "willite01"
+    },
+    {
+      "playerID": "willite01"
+    },
+    {
+      "playerID": "willite01"
+    },
+    {
+      "playerID": "willite01"
+    },
+    {
+      "playerID": "willite01"
+    },
+    {
+      "playerID": "willite01"
+    },
+    {
+      "playerID": "willite01"
+    },
+    {
+      "playerID": "willite01"
+    },
+    {
+      "playerID": "willite01"
+    },
+    {
+      "playerID": "willite01"
+    },
+    {
+      "playerID": "willite01"
+    },
+    {
+      "playerID": "willite01"
+    },
+    {
+      "playerID": "willite01"
+    }
+  ]
+}
+
+Process finished with exit code 0

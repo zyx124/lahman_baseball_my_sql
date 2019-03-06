@@ -1,0 +1,2 @@
+ *** DEBUG: Query =  delete from lahman2017.People WHERE playerID='yz3400' 
+delete_people returned:  1

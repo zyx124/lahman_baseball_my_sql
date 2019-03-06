@@ -1,0 +1,37 @@
+
+test_create_manager: test 1, player = \, {
+  "playerID": "ok1",
+  "nameLast": "Obiwan",
+  "nameFirst": "Kenobi"
+}
+Printing a response.
+HTTP status code:  201
+Response headers: 
+ {
+  "Content-Type": "text/plain; charset=utf-8",
+  "Content-Length": "7",
+  "Server": "Werkzeug/0.14.1 Python/3.7.2",
+  "Date": "Tue, 05 Mar 2019 00:39:17 GMT"
+}
+Text body: 
+ created
+
+test_create_manager: test 2 retrieving created player.
+No link header returned.
+
+test_create_manager: test 1, creating duplicate = \, {
+  "playerID": "ok1",
+  "nameLast": "Obiwan",
+  "nameFirst": "Kenobi"
+}
+Printing a response.
+HTTP status code:  500
+Response headers: 
+ {
+  "Content-Type": "text/plain; charset=utf-8",
+  "Content-Length": "21",
+  "Server": "Werkzeug/0.14.1 Python/3.7.2",
+  "Date": "Tue, 05 Mar 2019 00:39:17 GMT"
+}
+Text body: 
+ Internal server error

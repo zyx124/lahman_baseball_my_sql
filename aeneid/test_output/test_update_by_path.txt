@@ -1,0 +1,57 @@
+Testing started at 9:19 PM ...
+/home/zyx/anaconda3/bin/python3.7 /home/zyx/Documents/pycharm-2018.2.5/helpers/pycharm/_jb_nosetest_runner.py --path /home/zyx/W4111_HW2/aeneid/tests/test_update_by_path.py
+Launching Nosetest with arguments /home/zyx/Documents/pycharm-2018.2.5/helpers/pycharm/_jb_nosetest_runner.py /home/zyx/W4111_HW2/aeneid/tests/test_update_by_path.py in /home/zyx/W4111_HW2/aeneid/tests
+
+test_update_by_path: {'H': '100', 'HR': '50', 'yearID': '1963', 'teamID': 'BOS', 'stint': '1'}
+Printing a response.
+HTTP status code:  500
+Response headers:
+ {
+  "Content-Type": "text/plain; charset=utf-8",
+  "Content-Length": "21",
+  "Server": "Werkzeug/0.14.1 Python/3.7.2",
+  "Date": "Tue, 05 Mar 2019 02:19:34 GMT"
+}
+Text body:
+ Internal server error
+Printing a response.
+HTTP status code:  200
+Response headers:
+ {
+  "Content-Type": "application/json",
+  "Content-Length": "295",
+  "Server": "Werkzeug/0.14.1 Python/3.7.2",
+  "Date": "Tue, 05 Mar 2019 02:19:34 GMT"
+}
+JSON body:
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.041s
+
+OK
+ {
+  "playerID": "willite01",
+  "yearID": "1963",
+  "stint": "1",
+  "teamID": "BOS",
+  "lgID": null,
+  "G": null,
+  "AB": null,
+  "R": null,
+  "H": "100",
+  "2B": null,
+  "3B": null,
+  "HR": "50",
+  "RBI": null,
+  "SB": null,
+  "CS": null,
+  "BB": null,
+  "SO": null,
+  "IBB": null,
+  "HBP": null,
+  "SH": null,
+  "SF": null,
+  "GIDP": null
+}
+
+Process finished with exit code 0
