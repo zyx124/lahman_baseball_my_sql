@@ -9,9 +9,9 @@ Deployed on REST API, the queries can be implemented in browser or other test to
 After running ```aeneid.py```, the following types of queries can be done:
 
 1. GET:
-  - /api\/<dbname>/<table_name>/<primary_key_value>?fields=f1, f2, f3
-  - /api\/<dbname>/<table_name>q=<some_query_string>
-  - /api\/<dbname>/<table_name>/<primary_key>/<table2_name>?query_string
+  - /api/ <dbname>/<table_name>/<primary_key_value>?fields=f1, f2, f3
+  - /api/ <dbname>/<table_name>q=<some_query_string>
+  - /api/ <dbname>/<table_name>/<primary_key>/<table2_name>?query_string
 2. DELETE and PUT
   - /api/<dbname>/<table_name>/<primary_key>
 3. POST
