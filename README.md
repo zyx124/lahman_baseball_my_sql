@@ -21,3 +21,6 @@ After running ```aeneid.py```, the following types of queries can be done:
 Some of the test files are located in /aeneid/test.
 
 Foundamental structure has completed but some errors need to be modified.
+
+---
+The CSVDataTable is the file to directly manipulate data from .csv files. It can realize #insert, find_by_template, delete, import, save, load# and #JOIN# functions.
