@@ -4,7 +4,7 @@ This is a lahman baseball database using python and MySQL.
 
 The original data is in the compressed sql file.
 
-Deployed on REST API, the queries can be implemented in browser or other test tools like Postman.
+The REST API is deployed by python and FLask, the queries can be implemented in browser or other test tools like Postman.
 
 After running ```aeneid.py```, the following types of queries can be done:
 
