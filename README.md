@@ -13,10 +13,10 @@ After running ```aeneid.py```, the following types of queries can be done:
   - /api<dbname>/<table_name>q=<some_query_string>
   - /api<dbname>/<table_name>/<primary_key>/<table2_name>?query_string
 2. DELETE and PUT
-  - /api/<dbname>/<table_name>/<primary_key>
+  - /api<dbname>/<table_name>/<primary_key>
 3. POST
-  - /api/<dbname>/<table_name>
-  - /api/<dbname>/<table_name>/<primary_key>/table_name
+  - /api<dbname>/<table_name>
+  - /api<dbname>/<table_name>/<primary_key>/table_name
   
 Some of the test files are located in /aeneid/test.
 
