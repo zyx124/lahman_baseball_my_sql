@@ -1,5 +1,7 @@
 # lahman_baseball_my_sql
 
+![Structure](https://github.com/zyx124/lahman_baseball_my_sql/blob/master/pasted%20image%200.png)
+
 This is a lahman baseball database using python and MySQL.
 
 The original data is in the compressed sql file.
