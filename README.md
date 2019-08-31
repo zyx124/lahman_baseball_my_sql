@@ -6,6 +6,10 @@ This is a lahman baseball database using python and MySQL.
 
 The original data is in the compressed sql file.
 
+The database model EER diagram is shown below.
+
+![EER diagram of database model](https://github.com/zyx124/lahman_baseball_my_sql/blob/master/eer_diagram.png)
+
 The REST API is deployed by python and FLask, the queries can be implemented in browser or other test tools like Postman.
 
 After running ```aeneid.py```, the following types of queries can be done:
