@@ -1,6 +1,6 @@
 from aeneid.dbservices.BaseDataTable import BaseDataTable
 from aeneid.dbservices.DerivedDataTable import DerivedDataTable
-import aeneid.dbservices.dataservice as ds
+from aeneid.dbservices import dataservice as ds
 import pandas as pd
 
 import pymysql
@@ -20,7 +20,7 @@ class RDBDataTable(BaseDataTable):
     _default_connect_info = {
         'host': 'localhost',
         'user': 'dbuser',
-        'password': 'dbuser',
+        'password': 'dbuserdbuser',
         'db': 'lahman2017',
         'port': 3306
     }
