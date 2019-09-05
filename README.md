@@ -33,9 +33,9 @@ Fundamental structure has completed but some errors need to be modified.
 ---
 2019.5
 
-Some graph database implementation is added in the ```nosql``` folder.
+Some graph database implementation is added in the ```nosql``` folder. It can be run on Neo4j and create a graphical DB to present the relationships between players, teams, years etc.
 
 ---
 2019.7
 
-The CSVDataTable is the file to directly manipulate data from .csv files. It can realize ```insert```, ```find_by_template```, ```delete```, ```import```, ```save```, ```load``` and ```JOIN``` functions.
+The CSVDataTable is the file to directly manipulate data from .csv files. It can realize ```insert```, ```find_by_template```, ```delete```, ```import```, ```save```, ```load``` and ```JOIN``` functions. This file may help understand what really is going when we deal with data using database.
