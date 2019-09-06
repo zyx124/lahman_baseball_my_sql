@@ -2,15 +2,16 @@ from flask import Flask
 from aeneid.dbservices import dataservice as ds
 from flask import Flask
 from flask import request
-import os
-import json
-import copy
 from aeneid.utils import utils as utils
-import re
 from aeneid.utils import webutils as wu
 from aeneid.dbservices.DataExceptions import DataException
 from flask import Response
 from urllib.parse import urlencode
+
+import re
+import os
+import json
+import copy
 
 
 # Default delimiter to delineate primary key fields in string.
@@ -32,7 +33,7 @@ def compute_links(result, limit, offset):
     args = {}
     for k, v in request.args.items():
         if not k == 'offset':
-            args[k]=v
+            args[k] = v
         else:
             args[k] = next_offset
 
@@ -319,7 +320,7 @@ def get_location(dbname, resource_name, k):
 
     ks = [str(kk) for kk in k.values()]
     ks = "_".join(ks)
-    result = "/api/"+dbname+"/"+resource_name+"/"+ks
+    result = "/api/" + dbname + "/" + resource_name + "/" + ks
     return result
 
 
