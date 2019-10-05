@@ -10,7 +10,9 @@ The database model EER diagram is shown below.
 
 ![EER diagram of database model](https://github.com/zyx124/lahman_baseball_my_sql/blob/master/eer_diagram.png)
 
-I created a file ```RDBDataTable.py``` which provides an interface between the RESTful API and the database. It serves as the DAO layer in the web applicaiton. There are several methods and sub-methods to realize update, find, delete and insert functions.
+The service files are in /aneid/dbservices. I created a file ```RDBDataTable.py``` which provides an interface between the RESTful API and the MySQL database. It actually serves as the DAO layer in the web application. It contains some services in the web applicaiton to interact with the database and manipulate the data. There are several methods and sub-methods to realize update, find, delete and insert functions. 
+
+There is also an similar interface called ```CSVDataTable.py```, which is for manipulating data directly with .csv data files. It shows the mechanism of the data handling process without using the python packages like numpy or pandas.
 
 The REST API is deployed by python (3.5.2) and Flask (1.0.2), the request can be implemented in browser or other tools like Postman.
 
