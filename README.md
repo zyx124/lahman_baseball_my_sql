@@ -2,15 +2,17 @@
 
 ![Structure](https://github.com/zyx124/lahman_baseball_my_sql/blob/master/pasted%20image%200.png)
 
-This is a lahman baseball database using python and MySQL.
+This is a lahman baseball full-stack web app using python and MySQL.
 
-The original data is in the compressed sql file.
+The original data is in the compressed sql file, which has been cleaned. 
 
 The database model EER diagram is shown below.
 
 ![EER diagram of database model](https://github.com/zyx124/lahman_baseball_my_sql/blob/master/eer_diagram.png)
 
-The REST API is deployed by python (3.5.2) and Flask (1.0.2), the queries can be implemented in browser or other test tools like Postman.
+I created a file ```RDBDataTable.py``` which provides an interface between the RESTful API and the database. It serves as the DAO layer in the web applicaiton. There are several methods and sub-methods to realize update, find, delete and insert functions.
+
+The REST API is deployed by python (3.5.2) and Flask (1.0.2), the request can be implemented in browser or other tools like Postman.
 
 After running ```aeneid.py``` in /Flask_REST/, the following types of queries can be done:
 
